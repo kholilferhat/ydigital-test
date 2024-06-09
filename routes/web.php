@@ -16,12 +16,17 @@ use App\Models\Doctor;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
+
+    return view('welcome');
+});
+
+Route::get('/acne-type', function () {
     $acne_types = AcneType::all();
     $products = Product::all();
     // $doctor = Doctor::with(['clinicLocations.practiceSchedules']);
 
-    return view('welcome',[
+    return view('acneType',[
         'acne_types' => $acne_types,
         'products' => $products,
         // 'doctor' => $doctor,
