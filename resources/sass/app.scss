@@ -1494,72 +1494,72 @@ footer {
         display: flex;
         justify-content: center;
         margin-top: 10%;
-    }
-    .product-carousel-inner {
-        display: flex;
-        max-width: 90%;
-    }
-    .product-card {
-        flex: 0 0 20%;
-        margin: 0 14px;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: left;
-        overflow: hidden;
-        .product-image {
-            width: 100%;
-            height: auto;
-        }
-        .product-info {
-            padding: 15px;
-            .product-name {
-                color: #54565a;
-                font-size: 20px;
-                font-weight: 400;
-                font-family: "Kanit", sans-serif;
-                font-style: normal;
-                margin-top: 0;
-                margin-bottom: 15px;
-                height: 60px;
-            }
-
-            .product-rating {
-                display: inline-block;
-                font-size: 0;
-                .star {
-                    display: inline-block;
-                    width: 20px;
-                    height: 20px;
-                    background-size: cover;
-                    position: relative;
-                }
-            }
-            .product-rating .star.full {
-                background: url("/assets/star-full.avif") no-repeat center
-                    center;
-                background-size: cover;
-            }
-            .product-rating .star.half::after {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: url("/assets/star-half.avif") no-repeat center
-                    center;
-                background-size: cover;
+        .product-carousel-inner {
+            display: flex;
+            max-width: 90%;
+            .product-card {
+                flex: 0 0 20%;
+                margin: 0 14px;
+                background-color: #f9f9f9;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                text-align: left;
                 overflow: hidden;
-            }
-            .product-price {
-                color: #54565a;
-                font-size: 24px;
-                font-weight: 600;
-                font-family: "Kanit", sans-serif;
-                font-style: normal;
-                margin-top: 0;
-                margin-bottom: 15px;
+                .product-image {
+                    width: 100%;
+                    height: auto;
+                }
+                .product-info {
+                    padding: 15px;
+                    .product-name {
+                        color: #54565a;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: "Kanit", sans-serif;
+                        font-style: normal;
+                        margin-top: 0;
+                        margin-bottom: 15px;
+                        height: 60px;
+                    }
+
+                    .product-rating {
+                        display: inline-block;
+                        font-size: 0;
+                        .star {
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            background-size: cover;
+                            position: relative;
+                        }
+                    }
+                    .product-rating .star.full {
+                        background: url("/assets/star-full.avif") no-repeat
+                            center center;
+                        background-size: cover;
+                    }
+                    .product-rating .star.half::after {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: url("/assets/star-half.avif") no-repeat
+                            center center;
+                        background-size: cover;
+                        overflow: hidden;
+                    }
+                    .product-price {
+                        color: #54565a;
+                        font-size: 24px;
+                        font-weight: 600;
+                        font-family: "Kanit", sans-serif;
+                        font-style: normal;
+                        margin-top: 0;
+                        margin-bottom: 15px;
+                    }
+                }
             }
         }
     }
@@ -1625,54 +1625,54 @@ footer {
             display: flex;
             justify-content: center;
             margin-top: 10%;
-        }
-        .product-carousel-inner {
-            display: flex;
-            max-width: 100%;
-        }
-        .product-card {
-            .product-image {
-                width: 100%;
-                height: auto;
+            .product-carousel-inner {
+                display: flex;
+                max-width: 100%;
             }
-            .product-info {
-                padding: 15px;
-                .product-name {
-                    color: #54565a;
-                    font-size: 16px;
-                    margin-bottom: 10px;
-                }
-
-                .product-rating {
-                    display: inline-block;
-                    font-size: 0;
-                    .star {
-                        display: inline-block;
-                        width: 12px;
-                        height: 12px;
-                        background-size: cover;
-                        position: relative;
-                    }
-                }
-                .product-rating .star.full {
-                    background: url("/assets/star-full.avif") no-repeat center
-                        center;
-                    background-size: cover;
-                }
-                .product-rating .star.half::after {
-                    content: "";
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+            .product-card {
+                .product-image {
                     width: 100%;
-                    height: 100%;
-                    background: url("/assets/star-half.avif") no-repeat center
-                        center;
-                    background-size: cover;
-                    overflow: hidden;
+                    height: auto;
                 }
-                .product-price {
-                    font-size: 14px;
+                .product-info {
+                    padding: 15px;
+                    .product-name {
+                        color: #54565a;
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+
+                    .product-rating {
+                        display: inline-block;
+                        font-size: 0;
+                        .star {
+                            display: inline-block;
+                            width: 12px;
+                            height: 12px;
+                            background-size: cover;
+                            position: relative;
+                        }
+                    }
+                    .product-rating .star.full {
+                        background: url("/assets/star-full.avif") no-repeat
+                            center center;
+                        background-size: cover;
+                    }
+                    .product-rating .star.half::after {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: url("/assets/star-half.avif") no-repeat
+                            center center;
+                        background-size: cover;
+                        overflow: hidden;
+                    }
+                    .product-price {
+                        font-size: 14px;
+                    }
                 }
             }
         }

@@ -13,8 +13,5 @@
         "sass": "^1.77.4",
         "sass-loader": "^14.2.1",
         "vite": "^5.0.0"
-    },
-    "dependencies": {
-        "jquery": "^3.7.1"
     }
 }

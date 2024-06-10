@@ -8,8 +8,8 @@
         <!-- fav icon  -->
         <link rel="icon" href="/assets/icon-3.avif" type="image/x-icon">
         
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+        {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
 
         <!-- css file prod -->
         <link rel="stylesheet" href="{{ asset('build/assets/app-B5AT5q_h.css') }}">
@@ -29,42 +29,13 @@
         <x-back-to-top/>
         <x-bottom-nav/>
         <!-- slick-carousel -->
-        {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
 
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!-- js file prod -->
         <script src="{{ asset('build/assets/app-V_ZoM36E.js') }}"></script>
-        <script>
-
-            // acne type carousel
-            document.addEventListener('DOMContentLoaded', function () {
-                const slides = document.querySelectorAll('.carousell-slide');
-
-                function updateAcneInfo(activeSlide) {
-                    const title = activeSlide.getAttribute('data-title');
-                    const description = activeSlide.getAttribute('data-description');
-
-                    document.getElementById('acne-title').innerText = title;
-                    document.getElementById('acne-description').innerText = description;
-                }
-
-                function activateSlide(slide) {
-                    slides.forEach(s => s.classList.remove('active'));
-                    slide.classList.add('active');
-                    updateAcneInfo(slide);
-                }
-
-                slides.forEach(slide => {
-                    slide.addEventListener('click', function () {
-                        activateSlide(slide);
-                    });
-                });
-
-                if (slides.length > 0) {
-                    activateSlide(slides[0]);
-                }
-            });
+        {{-- <script>
 
             // back to top
             window.onscroll = function() {
@@ -182,6 +153,6 @@
                 document.getElementById("short-content").style.display = "block";
                 document.getElementById("full-content").style.display = "none";
             }
-        </script>
+        </script> --}}
     </body>
 </html>
