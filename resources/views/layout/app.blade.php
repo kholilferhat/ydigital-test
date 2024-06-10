@@ -8,8 +8,8 @@
         <!-- fav icon  -->
         <link rel="icon" href="/assets/icon-3.avif" type="image/x-icon">
         
-        {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-        <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         <!-- css file prod -->
         <link rel="stylesheet" href="{{ asset('build/assets/app-B5AT5q_h.css') }}">

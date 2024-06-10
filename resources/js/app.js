@@ -1,4 +1,33 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    const slides = document.querySelectorAll('.carousell-slide');
+
+    function updateAcneInfo(activeSlide) {
+        const title = activeSlide.getAttribute('data-title');
+        const description = activeSlide.getAttribute('data-description');
+
+        document.getElementById('acne-title').innerText = title;
+        document.getElementById('acne-description').innerText = description;
+    }
+
+    function activateSlide(slide) {
+        slides.forEach(s => s.classList.remove('active'));
+        slide.classList.add('active');
+        updateAcneInfo(slide);
+    }
+
+    slides.forEach(slide => {
+        slide.addEventListener('click', function () {
+            activateSlide(slide);
+        });
+    });
+
+    if (slides.length > 0) {
+        activateSlide(slides[0]);
+    }
+    // });
+
     if (typeof $ === 'undefined') {
         console.error("jQuery is not loaded");
         return;
