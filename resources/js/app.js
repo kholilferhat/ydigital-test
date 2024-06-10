@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // document.addEventListener('DOMContentLoaded', function () {
     const slides = document.querySelectorAll('.carousell-slide');
 
     function updateAcneInfo(activeSlide) {
@@ -26,14 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (slides.length > 0) {
         activateSlide(slides[0]);
     }
-    // });
-
-    if (typeof $ === 'undefined') {
-        console.error("jQuery is not loaded");
-        return;
-    }
-
-    console.log("jQuery is working!");
 
     // Back to top
     window.onscroll = function () {
