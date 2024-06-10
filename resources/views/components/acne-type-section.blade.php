@@ -17,7 +17,6 @@
                     </div>
                 @endforeach
             </div>
-            <div class="carousell-pagination"></div>
         </div>
     
         <div id="acne-type-info">

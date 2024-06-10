@@ -7,7 +7,9 @@
                 <h3 class="section-title">Produk Acne Center</h3>
                 <div class="underline"></div>
             </div>
-            <x-primary-button url="#" class="cta-button">LIHAT SEMUA PRODUK</x-primary-button>
+            <a href="#" class="cta-button">
+                <span>LIHAT SEMUA PRODUK</span>
+            </a>
         </div>
         <div class="product-carousel-controls">
             <div class="product-carousel-inner">
@@ -16,11 +18,6 @@
                         <img src="{{ $product['image'] }}" alt="{{ $product['title'] }}" class="product-image">
                         <div class="product-info">
                             <h3 class="product-name">{{ $product['title'] }}</h3>
-                            {{-- <div class="product-rating">
-                                @for ($i = 0; $i < $product['rating']; $i++)
-                                    &#9733;
-                                @endfor
-                            </div> --}}
                             <div class="product-rating" data-rating="{{ $product['rating'] }}"></div>
                             <div class="product-price">{{ $product['price'] }}</div>
                         </div>

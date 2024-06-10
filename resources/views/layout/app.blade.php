@@ -5,9 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Erha Ultimate Clinic</title>
+        <!-- fav icon  -->
+        <link rel="icon" href="/assets/icon-3.avif" type="image/x-icon">
         
-        {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-        <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         <!-- Reference built CSS file -->
         <link rel="stylesheet" href="{{ asset('build/assets/app-Da8rTN5t.css') }}">
@@ -84,6 +86,23 @@
                     slidesToScroll: 1,
                     prevArrow: '<img class="slick-prev" src="/assets/carousel-left-hover.avif" alt=" erha carousel-left-hover icon">',
                     nextArrow: '<img class="slick-next" src="/assets/carousel-right-hover.avif" alt=" erha carousel-right-hover icon">',
+                    responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            prevArrow: '',
+                            nextArrow: ''
+                        }
+                    },
+                    {
+                        breakpoint: 430,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    }]
                 });
             });
 
