@@ -11,8 +11,8 @@
         {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])
         <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
 
-        <!-- Reference built CSS file -->
-        <link rel="stylesheet" href="{{ asset('build/assets/app-Da8rTN5t.css') }}">
+        <!-- css file prod -->
+        <link rel="stylesheet" href="{{ asset('build/assets/app-B5AT5q_h.css') }}">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,8 +31,8 @@
         <!-- slick-carousel -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-        <!-- Reference built JS file -->
-        <script src="{{ asset('build/assets/app-DXq_-Z44.js') }}"></script>
+        <!-- js file prod -->
+        <script src="{{ asset('build/assets/app-V_ZoM36E.js') }}"></script>
         <script>
 
             // acne type carousel
