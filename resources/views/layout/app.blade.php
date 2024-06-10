@@ -8,8 +8,8 @@
         <!-- fav icon  -->
         <link rel="icon" href="/assets/icon-3.avif" type="image/x-icon">
         
-        {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-        <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         <!-- css file prod -->
         <link rel="stylesheet" href="{{ asset('build/assets/app-B5AT5q_h.css') }}">
@@ -29,7 +29,9 @@
         <x-back-to-top/>
         <x-bottom-nav/>
         <!-- slick-carousel -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!-- js file prod -->
         <script src="{{ asset('build/assets/app-V_ZoM36E.js') }}"></script>
@@ -77,6 +79,10 @@
             function scrollToTop() {
                 window.scrollTo({top: 0, behavior: 'smooth'});
             }
+
+            // const $ = require( "jquery" )( window )
+            // import $ from 'jquery';
+            // window.$ = window.jQuery = $;
 
             //product carousel section
             document.addEventListener('DOMContentLoaded', function () {
@@ -176,10 +182,6 @@
                 document.getElementById("short-content").style.display = "block";
                 document.getElementById("full-content").style.display = "none";
             }
-
-            $(document).ready(function() {
-                console.log("jQuery is working!");
-            });
         </script>
     </body>
 </html>
