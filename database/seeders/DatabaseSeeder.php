@@ -18,7 +18,9 @@ class DatabaseSeeder extends Seeder
             AcneTypeSeeder::class,
             DoctorSeeder::class,
             ClinicLocationSeeder::class,
-            PracticeScheduleSeeder::class
+            PracticeScheduleSeeder::class,
+            TestimonialSeeder::class
+
         ]);
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',

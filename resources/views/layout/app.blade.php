@@ -8,8 +8,8 @@
         <!-- fav icon  -->
         <link rel="icon" href="/assets/icon-3.avif" type="image/x-icon">
         
-        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+        {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet"> --}}
 
         <!-- Reference built CSS file -->
         <link rel="stylesheet" href="{{ asset('build/assets/app-Da8rTN5t.css') }}">
@@ -176,6 +176,10 @@
                 document.getElementById("short-content").style.display = "block";
                 document.getElementById("full-content").style.display = "none";
             }
+
+            $(document).ready(function() {
+                console.log("jQuery is working!");
+            });
         </script>
     </body>
 </html>
