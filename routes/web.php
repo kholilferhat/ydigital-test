@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Models\AcneType;
 use App\Models\Product;
 use App\Models\Doctor;
+use App\Models\Testimony;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,12 +25,13 @@ Route::get('/', function () {
 Route::get('/acne-type', function () {
     $acne_types = AcneType::all();
     $products = Product::all();
-    // $doctor = Doctor::with(['clinicLocations.practiceSchedules']);
+    $testimonials = Testimony::all();
+
 
     return view('acneType',[
         'acne_types' => $acne_types,
         'products' => $products,
-        // 'doctor' => $doctor,
+        'testimonials' => $testimonials,
     ]);
 });
 

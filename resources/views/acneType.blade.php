@@ -5,7 +5,7 @@
     <x-hero-section/>
     <x-acne-type-section :acneTypes="$acne_types" />
     <x-acne-program-section />
-    <x-testimonials-section />
+    <x-testimonials-section :testimonials="$testimonials" />
     <x-community-section />
     <x-product-carousel :products="$products"/>
     <x-about-section />
