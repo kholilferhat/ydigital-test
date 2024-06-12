@@ -1,50 +1,50 @@
 <footer>
     <div class="left-container">
-    <div class="logo-container">
-        <img src="/assets/erha-ultimate.avif" alt="erha logo footer"/>
-    </div>
-    <div class="contact-container">
-        <h4>Hubungi Kami</h4>
-        <p>
-            DISTRICT 8 Building Treasury Tower
-            36th & 37th Floor SCBD Lot 28
-            Jl. Jend Sudirman Kav. 52 - 53 Jakarta 12190
-        </p>
-        <div class="icon-container">
-            <div class="iconandtext">
-                <img src="/assets/icon-7.avif" alt="erha email icon">
-                <a href="mailto:dear@erha.co.id" >dear@erha.co.id</a>
-            </div>
-            <div class="iconandtext">
-                <img src="/assets/icon-5.avif" alt="erha email icon">
-                <a href="tel:02150922121" > (021) 5092 2121</a>
-            </div>
-            <div  class="iconandtext">
-                <img src="/assets/wa-logo.avif" alt="erha email icon">
-                <a href="https://wa.me/6281121212121"> +62-811-2121-2121</a>
+        <div class="logo-container">
+            <img src="/assets/erha-ultimate.avif" alt="erha logo footer"/>
+        </div>
+        <div class="contact-container">
+            <h4>Hubungi Kami</h4>
+            <p>
+                DISTRICT 8 Building Treasury Tower
+                36th & 37th Floor SCBD Lot 28
+                Jl. Jend Sudirman Kav. 52 - 53 Jakarta 12190
+            </p>
+            <div class="icon-container">
+                <div class="iconandtext">
+                    <img src="/assets/icon-7.avif" alt="erha email icon">
+                    <a href="mailto:dear@erha.co.id" >dear@erha.co.id</a>
+                </div>
+                <div class="iconandtext">
+                    <img src="/assets/icon-5.avif" alt="erha email icon">
+                    <a href="tel:02150922121" > (021) 5092 2121</a>
+                </div>
+                <div  class="iconandtext">
+                    <img src="/assets/wa-logo.avif" alt="erha email icon">
+                    <a href="https://wa.me/6281121212121"> +62-811-2121-2121</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="social-container">
-        <h4>Ikuti Kami</h4>
-        <div class="socialmedia">
-            <a href="https://www.facebook.com/erhadermatology.official">
-                <img src="/assets/facebook.avif" alt="erha facebook">
-            </a>
-            <a href="https://www.instagram.com/erha.ultimate/">
-                <img src="/assets/instagram.avif" alt="erha instagram">
-            </a>
-            <a href="https://www.youtube.com/@dearerha">
-                <img src="/assets/youtube.avif" alt="erha youtube">
-            </a>
-            <a href="https://www.tiktok.com/@erha.ultimate">
-                <img src="/assets/tiktok.avif" alt="erha tiktok">
-            </a>
+        <div class="social-container">
+            <h4>Ikuti Kami</h4>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/erhadermatology.official">
+                    <img src="/assets/facebook.avif" alt="erha facebook">
+                </a>
+                <a href="https://www.instagram.com/erha.ultimate/">
+                    <img src="/assets/instagram.avif" alt="erha instagram">
+                </a>
+                <a href="https://www.youtube.com/@dearerha">
+                    <img src="/assets/youtube.avif" alt="erha youtube">
+                </a>
+                <a href="https://www.tiktok.com/@erha.ultimate">
+                    <img src="/assets/tiktok.avif" alt="erha tiktok">
+                </a>
+            </div>
+            <h4 class="privacy">
+                <a href="https://erhaultimate.co.id/privacy-policy" >Kebijakan Privasi</a>
+            </h4>
         </div>
-        <h4 class="privacy">
-            <a href="https://erhaultimate.co.id/privacy-policy" >Kebijakan Privasi</a>
-        </h4>
-    </div>
     </div>
     <div class="right-container">
         <div class="mobileAppContainer">

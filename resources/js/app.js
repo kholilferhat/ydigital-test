@@ -54,15 +54,21 @@ document.addEventListener('DOMContentLoaded', function () {
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
-                        prevArrow: '',
-                        nextArrow: ''
+                        prevArrow: null,
+                        nextArrow: null,
+                        centerMode: true,
+                        centerPadding: '0px',
                     }
                 },
                 {
                     breakpoint: 430,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        prevArrow: null,
+                        nextArrow: null,
+                        centerMode: true,
+                        centerPadding: '-24px',
                     }
                 }
             ]

@@ -25,6 +25,9 @@
                 @endforeach
             </div>
         </div>
+        <a href="#" class="cta-button-mobile">
+            <span>LIHAT SEMUA PRODUK</span>
+        </a>
     </div>
 </section>
 
